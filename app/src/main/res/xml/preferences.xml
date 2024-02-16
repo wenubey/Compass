@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:key="compass_category"
+        android:title="@string/app_name"
+        android:icon="@drawable/ic_compass">
+
+        <SwitchPreferenceCompat
+            android:key="true_north"
+            android:title="@string/true_north"
+            android:summary="@string/true_north_summary"
+            android:defaultValue="false"/>
+
+        <SwitchPreferenceCompat
+            android:key="haptic_feedback"
+            android:title="@string/haptic_feedback"
+            android:summary="@string/haptic_feedback_summary"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="display_category"
+        android:title="@string/display"
+        android:icon="@drawable/ic_display_settings">
+
+        <ListPreference
+            app:key="night_mode"
+            android:title="@string/night_mode"
+            android:entries="@array/night_mode_entries"
+            android:entryValues="@array/night_mode_values"
+            app:useSimpleSummaryProvider="true"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

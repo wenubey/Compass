@@ -1,3 +1,83 @@
 <resources>
     <string name="app_name">Compass</string>
+
+    <string name="cardinal_dir_north">North</string>
+    <string name="cardinal_dir_northeast">Northeast</string>
+    <string name="cardinal_dir_east">East</string>
+    <string name="cardinal_dir_southeast">Southeast</string>
+    <string name="cardinal_dir_south">South</string>
+    <string name="cardinal_dir_southwest">Southwest</string>
+    <string name="cardinal_dir_west">West</string>
+    <string name="cardinal_dir_northwest">Northwest</string>
+
+    <string name="sensor_error_message">Sensor not available</string>
+    <string name="sensor_accuracy_no_contact">Sensor not available</string>
+    <string name="sensor_accuracy_unreliable">Sensor values are unreliable</string>
+    <string name="sensor_accuracy_low">Low accuracy</string>
+    <string name="sensor_accuracy_medium">Average accuracy</string>
+    <string name="sensor_accuracy_high">Maximum accuracy</string>
+    <string name="sensor_calibration_text">You can try to improve your sensor accuracy at any time by rotating the device in a figure 8 pattern.</string>
+
+    <string name="compass_rose_image_description">Compass rose showing to north</string>
+    <string name="device_heading_indicator_image_description">Indicates in which direction the device is pointing</string>
+
+    <string name="zero_degrees">0°</string>
+    <string name="degrees">%1$d°</string>
+
+    <string name="degree_0_text">0</string>
+    <string name="degree_30_text">30</string>
+    <string name="degree_60_text">60</string>
+    <string name="degree_90_text">90</string>
+    <string name="degree_120_text">120</string>
+    <string name="degree_150_text">150</string>
+    <string name="degree_180_text">180</string>
+    <string name="degree_210_text">210</string>
+    <string name="degree_240_text">240</string>
+    <string name="degree_270_text">270</string>
+    <string name="degree_300_text">300</string>
+    <string name="degree_330_text">330</string>
+
+    <string name="cardinal_direction_north">North</string>
+    <string name="cardinal_direction_northeast">Northeast</string>
+    <string name="cardinal_direction_east">East</string>
+    <string name="cardinal_direction_southeast">Southeast</string>
+    <string name="cardinal_direction_south">South</string>
+    <string name="cardinal_direction_southwest">Southwest</string>
+    <string name="cardinal_direction_west">West</string>
+    <string name="cardinal_direction_northwest">Northwest</string>
+
+    <string name="cardinal_direction_north_abbreviation">N</string>
+    <string name="cardinal_direction_east_abbreviation">E</string>
+    <string name="cardinal_direction_south_abbreviation">S</string>
+    <string name="cardinal_direction_west_abbreviation">W</string>
+
+
+    <string name="location_loading">Waiting for location update</string>
+    <string name="location_error_message">Location not available</string>
+    <string name="location_not_present">Location could not be determined. Falling back to magnetic north.</string>
+    <string name="location_reload">Reload location</string>
+    <string name="access_location_permission_rationale_title">We need permission to access your location</string>
+    <string name="access_location_permission_rationale_message">For showing to true north, this app needs to determine the magnetic declination based on your current location.</string>
+    <string name="access_location_permission_denied">Missing permission to access location. Falling back to magnetic north.</string>
+
+    <string name="error">Error</string>
+    <string name="ok">OK</string>
+    <string name="no_thanks">No thanks</string>
+
+    <string name="error_message">An error occurred.\nMessage: %1$s\nCode: %2$s</string>
+
+    <string name="sensor_status">Sensor status</string>
+    <string name="lock_screen_rotation">Lock screen rotation</string>
+    <string name="settings">Settings</string>
+
+    <string name="true_north">True North</string>
+    <string name="true_north_summary">Correct the magnetic declination and show to true north. Requires access to your location.</string>
+    <string name="magnetic_north">Magnetic North</string>
+    <string name="haptic_feedback">Haptic feedback</string>
+    <string name="haptic_feedback_summary">The compass vibrates when the direction changes.</string>
+    <string name="display">Display</string>
+    <string name="night_mode">Theme</string>
+    <string name="night_mode_follow_system">Follow system</string>
+    <string name="night_mode_no">Light</string>
+    <string name="night_mode_yes">Dark</string>
 </resources>
