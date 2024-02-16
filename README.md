@@ -5,6 +5,18 @@
 
 The Compass Application is an Android application that provides a compass functionality, allowing users to determine their orientation relative to magnetic north. It utilizes sensors such as accelerometer, compass, and gyroscope to provide accurate readings.
 
+## Visualization
+
+<div style="display:flex">
+    <img src="https://github.com/wenubey/Compass/blob/main/app/src/main/assets/Screenshot_1.png" alt="not found" width="240" height="480">
+    <img src="https://github.com/wenubey/Compass/blob/main/app/src/main/assets/Screenshot_3.png" alt="not found" width="240" height="480">
+    <img src="https://github.com/wenubey/Compass/blob/main/app/src/main/assets/Screenshot_4.png" alt="not found" width="240" height="480">
+</div>
+
+<div style="display:flex">
+    <img src="https://github.com/wenubey/Compass/blob/main/app/src/main/assets/Screenshot_2.png" alt="not found" width="480" height="240">
+</div>
+
 ## Features
 
 -  Provides a real-time compass display indicating the user's orientation.
@@ -52,11 +64,3 @@ The Compass Application relies on the following dependencies:
 - AndroidX: Jetpack libraries for modern Android development.
 - Android Architecture Components: Provides LiveData and ViewModel for managing UI-related data.
 - Google Play Services: Provides access to location services for accurate compass readings.
-
-## Visualization
-
-<div style="display:flex">
-    <img src="https://github.com/wenubey/CompassApp/blob/readme-md/app/src/main/assets/Screenshot_1.png" alt="not found" width="240" height="480">
-    <img src="https://github.com/wenubey/CompassApp/blob/readme-md/app/src/main/assets/Screenshot_2.png" alt="not found" width="240" height="480">
-    <img src="https://github.com/wenubey/CompassApp/blob/readme-md/app/src/main/assets/Screenshot_3.png" alt="not found" width="240" height="480">
-</div>
